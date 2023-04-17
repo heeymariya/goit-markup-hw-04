@@ -532,12 +532,15 @@ img {
     text-align: left;
     gap: 48px 24px;
     padding: 0;
-
 }
 
 .row-item { 
     background: #FFFFFF;
     flex-basis: calc((100% - 48px) / 3) ;
+}
+
+.row-link { 
+    display: block;
 }
 
 .row-link:hover,
